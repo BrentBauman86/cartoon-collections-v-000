@@ -25,6 +25,6 @@ def find_the_cheese(strings)
     return types
   else
     nil
+    end
   end
-end
 end
