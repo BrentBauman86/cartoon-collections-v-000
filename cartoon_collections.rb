@@ -5,7 +5,7 @@ def roll_call_dwarves(names)
   names.each_with_index{|name, index| new_array << "#{name} #{index+1}"}
 end
 return new_array
-end
+
 
 
 def summon_captain_planet(calls)
