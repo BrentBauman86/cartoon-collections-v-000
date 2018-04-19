@@ -6,7 +6,7 @@ binding.pry
   names.each_with_index {|name, index| new_array.push puts "#{name} #{index+1}"}
 return new_array
 end
-end
+
 
 def summon_captain_planet# code an argument here
   # Your code here
