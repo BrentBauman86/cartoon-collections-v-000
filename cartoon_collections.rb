@@ -3,7 +3,7 @@
 def roll_call_dwarves(names)
   new_array = []
   names.each_with_index {|name, index| new_array[name] = index}
-  puts "#{name} #{index}"
+  new_array << puts "#{name} #{index}"
 return new_array
 end
 
