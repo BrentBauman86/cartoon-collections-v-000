@@ -8,7 +8,7 @@ end
 
 
 def summon_captain_planet(calls)
-  calls.map {|holler| holler.upcase + "!"}
+  calls.map {|holler| holler.capitalize + "!"}
 
 end
 
