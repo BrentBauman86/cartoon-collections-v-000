@@ -9,7 +9,6 @@ end
 
 def summon_captain_planet(calls)
   calls.map {|holler| holler.capitalize + "!"}
-
 end
 
 def long_planeteer_calls# code an argument here
