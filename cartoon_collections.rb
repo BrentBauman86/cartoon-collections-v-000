@@ -6,8 +6,6 @@ def roll_call_dwarves(names)
 puts new_array
 end
 
-
-
 def summon_captain_planet(calls)
   calls.map {|holler| holler.capitalize + "!"}
 end
@@ -27,5 +25,4 @@ def find_the_cheese(strings)
   else
     false
   end
-
 end
