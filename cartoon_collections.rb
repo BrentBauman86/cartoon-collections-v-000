@@ -26,4 +26,6 @@ true
   else
     false
   end
+cheese_types
 end
+
