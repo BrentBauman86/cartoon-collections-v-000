@@ -2,7 +2,7 @@
 #binding.pry
 def roll_call_dwarves(names)
   new_array = []
-  names.each_with_index {|name, index| new_array[name] = index << puts "hi"}
+  names.each_with_index {|name, index| new_array[name] = index}
 return new_array
 end
 
