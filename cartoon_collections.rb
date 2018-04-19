@@ -1,5 +1,5 @@
 require "pry"
-binding.pry
+
 def roll_call_dwarves(names)
   new_array = []
 binding.pry
