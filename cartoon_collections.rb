@@ -1,8 +1,7 @@
 require "pry"
-
+binding.pry
 def roll_call_dwarves(names)
   new_array = []
-binding.pry
   names.each_with_index {|name, index| new_array.push puts "#{name} #{index+1}"}
 return new_array
 end
