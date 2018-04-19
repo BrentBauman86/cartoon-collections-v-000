@@ -7,8 +7,9 @@ return new_array.join
 end
 
 
-def summon_captain_planet# code an argument here
-  # Your code here
+def summon_captain_planet(calls)
+  calls.map {|holler| holler.upcase + "!"}
+
 end
 
 def long_planeteer_calls# code an argument here
