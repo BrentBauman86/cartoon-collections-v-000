@@ -1,7 +1,7 @@
 #require "pry"
 #binding.pry
 def roll_call_dwarves(names)
-  names.each_with_index{|name, index| "#{name} #{index+1}"}
+  names.each_with_index{|name, index| names == "#{name} #{index+1}"}
 end
 
 
