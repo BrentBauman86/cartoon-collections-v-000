@@ -28,4 +28,3 @@ true
   end
 cheese_types
 end
-
