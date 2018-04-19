@@ -11,8 +11,11 @@ def summon_captain_planet(calls)
   calls.map {|holler| holler.capitalize + "!"}
 end
 
-def long_planeteer_calls# code an argument here
-  # Your code here
+def long_planeteer_calls(quadholler)
+  if quadholler.length > 4
+    return true
+  else
+    return false
 end
 
 def find_the_cheese# code an argument here
